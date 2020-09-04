@@ -2,13 +2,14 @@
 
 # busStation.sql
 
-function definition: `getTimeTraveled(start_station varchar(20), bus_number integer)`
+## Function definition: 
+`getTimeTraveled(start_station varchar(20), bus_number integer)`
 
-inputs: 
+## Inputs: 
 - start_station: the starting station of the bus
 - bus_number: bus number
 
-returns:
+## Returns:
 - a table of buses corresponding to bus_number along with total time traveled from start_station and time until next station
 
 | column                 | description                                                                          |
@@ -20,13 +21,14 @@ returns:
 
 # employees.sql
 
-returnAllEmployeesUnder(employee_name varchar(20), manager_id integer)
+## Function definition: 
+`returnAllEmployeesUnder(employee_name varchar(20), manager_id integer)`
 
-inputs:
+## Inputs:
 - employee_name: name of employee
 - manager_id: employee's manager id
 
-returns:
+## Returns:
 - a table of all employees under employee_name who has employee id of manager_id
 
 | column                 | description                                                                          |
