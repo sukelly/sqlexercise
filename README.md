@@ -1,8 +1,8 @@
 # SQL Exercise
 
 # Table of Contents
-* [busStation.sql](#heading)
-* [employees.sql](#heading-1)
+- [busStation.sql](#heading)
+- [employees.sql](#heading-1)
 
 ## busStation.sql
 
