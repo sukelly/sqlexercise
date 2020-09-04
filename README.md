@@ -4,16 +4,16 @@
 * [busStation.sql](#heading)
 * [employees.sql](#heading-1)
 
-# busStation.sql
+## busStation.sql
 
-## Function definition: 
+### Function definition: 
 `getTimeTraveled(start_station varchar(20), bus_number integer)`
 
-## Inputs: 
+### Inputs: 
 - start_station: the starting station of the bus
 - bus_number: bus number
 
-## Returns:
+### Returns:
 - a table of buses corresponding to bus_number along with total time traveled from start_station and time until next station
 
 | column                 | description                                                                          |
@@ -23,16 +23,17 @@
 |totalTravelTime         | total travel time from the starting station to current station                       |
 |timeToNextStation       | time until next station                                                              |
 
-# employees.sql
 
-## Function definition: 
+## employees.sql
+
+### Function definition: 
 `returnAllEmployeesUnder(employee_name varchar(20), manager_id integer)`
 
-## Inputs:
+### Inputs:
 - employee_name: name of employee
 - manager_id: employee's manager id
 
-## Returns:
+### Returns:
 - a table of all employees under employee_name who has employee id of manager_id
 
 | column                 | description                                                                          |
